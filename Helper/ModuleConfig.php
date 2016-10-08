@@ -1,11 +1,10 @@
 <?php
 /**
- * @package     BlueAcorn\ModuleManager
+ * @package     SamTay\ModuleManager
  * @version     1.0.0
- * @author      Sam Tay @ Blue Acorn, Inc. <code@blueacorn.com>
- * @copyright   Copyright © 2016 Blue Acorn, Inc.
+ * @author      Sam Tay
  */
-namespace BlueAcorn\ModuleManager\Helper;
+namespace SamTay\ModuleManager\Helper;
 
 use Magento\Framework\App\DeploymentConfig;
 use Magento\Framework\App\Filesystem\DirectoryList;

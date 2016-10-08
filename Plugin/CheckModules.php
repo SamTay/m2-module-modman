@@ -1,13 +1,12 @@
 <?php
 /**
- * @package     BlueAcorn\ModuleManager
+ * @package     SamTay\ModuleManager
  * @version     1.0.0
- * @author      Sam Tay @ Blue Acorn, Inc. <code@blueacorn.com>
- * @copyright   Copyright © 2016 Blue Acorn, Inc.
+ * @author      Sam Tay
  */
-namespace BlueAcorn\ModuleManager\Plugin;
+namespace SamTay\ModuleManager\Plugin;
 
-use BlueAcorn\ModuleManager\Helper\ModuleConfig;
+use SamTay\ModuleManager\Helper\ModuleConfig;
 use Magento\Framework\App\DeploymentConfig;
 use Magento\Framework\Config\ConfigOptionsListConstants;
 use Magento\Framework\Exception\LocalizedException;

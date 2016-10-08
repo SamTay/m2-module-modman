@@ -1,13 +1,12 @@
 <?php
 /**
- * @package     BlueAcorn\ModuleManager
+ * @package     SamTay\ModuleManager
  * @version     1.0.0
- * @author      Sam Tay @ Blue Acorn, Inc. <code@blueacorn.com>
- * @copyright   Copyright © 2016 Blue Acorn, Inc.
+ * @author      Sam Tay
  */
-namespace BlueAcorn\ModuleManager\Plugin;
+namespace SamTay\ModuleManager\Plugin;
 
-use BlueAcorn\ModuleManager\Helper\ModuleConfig as CustomModuleConfig;
+use SamTay\ModuleManager\Helper\ModuleConfig as CustomModuleConfig;
 use Magento\Framework\App\DeploymentConfig\Reader;
 use Magento\Framework\Config\ConfigOptionsListConstants;
 

@@ -1,12 +1,11 @@
 <?php
 /*
- * @package     BlueAcorn\ModuleManager
+ * @package     SamTay\ModuleManager
  * @version     1.0.0
- * @author      Sam Tay @ Blue Acorn, Inc. <code@blueacorn.com>
- * @copyright   Copyright © 2016 Blue Acorn, Inc.
+ * @author      Sam Tay
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'BlueAcorn_ModuleManager',
+    'SamTay_ModuleManager',
     __DIR__
 );

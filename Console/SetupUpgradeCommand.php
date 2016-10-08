@@ -1,13 +1,12 @@
 <?php
 /**
- * @package     BlueAcorn\ModuleManager
+ * @package     SamTay\ModuleManager
  * @version     1.0.0
- * @author      Sam Tay @ Blue Acorn, Inc. <code@blueacorn.com>
- * @copyright   Copyright © 2016 Blue Acorn, Inc.
+ * @author      Sam Tay
  */
-namespace BlueAcorn\ModuleManager\Console;
+namespace SamTay\ModuleManager\Console;
 
-use BlueAcorn\ModuleManager\Helper\ModuleConfig;
+use SamTay\ModuleManager\Helper\ModuleConfig;
 use Magento\Framework\Config\ConfigOptionsListConstants;
 use Magento\Framework\Config\File\ConfigFilePool;
 use Magento\Framework\Module\ModuleList\Loader as ModuleListLoader;
