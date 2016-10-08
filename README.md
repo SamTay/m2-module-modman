@@ -1,6 +1,7 @@
 # Module Manager
 Module that allows a tracked file to determine which modules are enabled/disabled.
 
+### Motivation
 The problem that this module solves is in managing which modules are enabled versus disabled. In Magento 1, this
 was accomplished via separate `app/etc/modules/NameSpace_ModuleName.xml` files. Unfortunately in Magento 2, this is done
 by an automatically generated `app/etc/config.php` file. The native issue with Magento 2 is that this file also happens
